@@ -3,7 +3,6 @@ window.ScrubGSAPTimeline = function(tl) {
 if( Object.prototype.toString.call( tl ) === '[object Array]' ) {
     var i = tl.length;
     while(--i > -1){
-     console.log(i)
      mainTl.add(tl[i], 0);
     }
     
