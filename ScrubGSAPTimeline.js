@@ -44,6 +44,7 @@ if( Object.prototype.toString.call( tl ) === '[object Array]' ) {
     fontSize: 14,
     padding: '5px 5px 5px 5px',
     userSelect: 'none',
+    pointerEvents:'none',
     textAlign: 'center',
     color: gGreen,
     fontFamily: 'Helvetica, Arial, sans-serif',
