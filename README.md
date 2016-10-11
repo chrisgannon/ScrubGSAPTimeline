@@ -10,7 +10,7 @@ To use it:
 - To let the timeline play automatically, move your mouse outside the document.
 - Moving your mouse off the document at, say, halfway along the X axis, will play the timeline from that percentage of the timeline (i.e. halfway through the timeline's duration).
 - Double click to pause scrubbing. Double click again to unpause.
-- Pass in multiple TimelineMax/Lite instances in an array like this 
+- Pass in multiple TimelineMax/Lite instances in an array like this: 
 - ScrubGSAPTimeline([umbrellaTimeline, fadeUmbrellaTimeline])
 
 **See a CodePen demo [here](http://codepen.io/chrisgannon/pen/zGmdBN)**
