@@ -12,7 +12,6 @@ if( Object.prototype.toString.call( tl ) === '[object Array]' ) {
 }
  var Scrubber = function(_tl){
   
-  console.log(_tl.duration())
    var mouseMove = function(e) {
      box.innerHTML = parseFloat(_tl.time()).toFixed(2);
      _tl.pause();
