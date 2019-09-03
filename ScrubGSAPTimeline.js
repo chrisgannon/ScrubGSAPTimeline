@@ -21,7 +21,6 @@ window.ScrubGSAPTimeline = (tl) => {
                     x: (mouseX >= (window.innerWidth - 48)) ? mouseX - 48 : mouseX,
                     y: (mouseY <= 20) ? mouseY + 20 : mouseY - 20
                 })
-                console.log(mouseX)
             },
             mouseOver = (e) => {
                 _tl.pause();
