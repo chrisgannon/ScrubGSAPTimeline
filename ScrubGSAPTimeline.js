@@ -37,7 +37,7 @@ window.ScrubGSAPTimeline = (tl) => {
             },
             box = document.createElement('div'),
             mouseX, mouseY, gGreen = '#53A018',
-            cssText = "position:fixed;border-radius:4px;font-size:14px;padding:5px;user-select:none;pointer-events:none;text-align:center;color:#53A018;top:0;left:0;font-family:Helvetica, Arial, sans-serif;background-color:#262626;"
+            cssText = "position:fixed;border-radius:4px;font-size:14px;padding:5px;user-select:none;pointer-events:none;text-align:center;color:#53A018;top:0;left:0;font-family:Helvetica, Arial, sans-serif;background-color:#262626;line-height:1 !important"
         box.style.cssText = cssText;
 
         document.body.appendChild(box);
