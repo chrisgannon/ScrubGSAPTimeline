@@ -16,6 +16,8 @@ To use it:
 **CodePen demo 
 [here](http://codepen.io/chrisgannon/pen/zGmdBN)**
 
+***********************************
+
 **Support for GSAP 3.0**
 
 Greensock 3.0 has some fundamental changes to the syntax — if you are working with the beta version of GSAP 3.0 please use the _v3_ file.
