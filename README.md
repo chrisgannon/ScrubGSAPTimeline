@@ -13,9 +13,10 @@ To use it:
 - Pass in multiple TimelineMax/Lite instances in an array like this: 
 - ScrubGSAPTimeline([umbrellaTimeline, fadeUmbrellaTimeline])
 
-**See a CodePen demo [here](http://codepen.io/chrisgannon/pen/zGmdBN)**
+**CodePen demo 
+[here](http://codepen.io/chrisgannon/pen/zGmdBN)**
 
-GSAP 3.0
+**Support for GSAP 3.0**
 
 Greensock 3.0 has some fundamental changes to the syntax — if you are working with the beta version of GSAP 3.0 please use the _v3_ file.
 
