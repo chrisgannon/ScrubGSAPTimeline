@@ -1,4 +1,10 @@
 window.ScrubGSAPTimeline = (tl) => {
+	
+	document.body.childNodes.forEach(target => {
+		gsap.set(target, {
+			pointerEvents: 'none'
+		})
+	})
     let mainTl = gsap.timeline();
     if (Object.prototype.toString.call(tl) === '[object Array]') {
         let i = tl.length;
@@ -12,6 +18,7 @@ window.ScrubGSAPTimeline = (tl) => {
     const Scrubber = (_tl) => {
         
         let mouseMove = (e) => {
+					
                 box.innerHTML = parseFloat(_tl.time()).toFixed(2);
                 _tl.pause();
                 _tl.progress(e.clientX / (window.innerWidth)); 
@@ -70,8 +77,8 @@ window.ScrubGSAPTimeline = (tl) => {
 
     }
 
+		//console.log(document.body.childNodes)
+		
     Scrubber(mainTl);
-
-
 
 }
