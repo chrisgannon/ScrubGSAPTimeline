@@ -1,9 +1,9 @@
 window.ScrubGSAPTimeline = (tl) => {
 	
 	document.body.childNodes.forEach(target => {
-		gsap.set(target, {
-			pointerEvents: 'none'
-		})
+		if(target.style){
+			target.style.pointerEvents = 'none';		
+		}
 	})
     let mainTl = gsap.timeline();
     if (Object.prototype.toString.call(tl) === '[object Array]') {
